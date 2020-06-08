@@ -1,0 +1,23 @@
+{
+    "name": "eeba/kbone",
+    "description": "公共平台接口sdk",
+    "type": "library",
+    "require": {
+        "php-curl-class/php-curl-class": "^8.6",
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kbone",
+            "email": "wenlongde@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kbone\\": "src/Kbone"
+        }
+    }
+}
