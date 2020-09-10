@@ -7,7 +7,7 @@ namespace Kbone\Api;
  * @property Mail mail
  */
 class Mail extends Base {
-    const URI_MSG_MAIL = '/msg/email';
+    const URI_MSG_MAIL = '/api/msg/email';
 
     /**
      * 发送邮件

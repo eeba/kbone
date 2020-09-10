@@ -9,8 +9,8 @@ namespace Kbone\Api;
  * @property File file
  */
 class File extends Base {
-    const UPLOAD_PATH = '/file/upload';
-    const DOWNLOAD_PATH = '/file/download';
+    const UPLOAD_PATH = '/api/file/upload';
+    const DOWNLOAD_PATH = '/api/file/download';
 
     /**
      * 上传文件
